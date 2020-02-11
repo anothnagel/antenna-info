@@ -113,8 +113,8 @@ $ Antenna Information File  Format Version of 2008.04.22
 #  22) 171:177 -- Sub-reflector/primary focus mounting legs thermal expansion coefficient (1/K)
 #
 #----------------------------------------------------------------------------------------
-ANTENNA_INFO  AGGO      FO_PRIM MO_AZEL RA_NO   ME_COMP  17.0  0    0   1011.7    6.0  0.2000   1.50  1.00E-5   1.4600 1.20E-5   0.0000 1.20E-5   0.7500 1.20E-5   4.5000 1.20E-5
-# Information copied from TIGOCONC except ref. temp. and pres.
+ANTENNA_INFO  AGGO      FO_PRIM MO_AZEL RA_NO   ME_COMP  17.0  0    0   1011.7    6.0  0.2700   4.73  1.00E-5   1.4600 1.20E-5   0.0000 1.20E-5   0.7500 1.20E-5   4.5000 1.20E-5
+# Information copied from TIGOCONC except ref. temp. and pres., height and depth of foundataion, see Email by Hayo Hase 2020-02-10
 # axis offset reported by Hayo Hase BKG, 2004 on the basis of local measurements
 # 0.0000 +- 0.0003
 #----------------------------------------------------------------------------------------
@@ -134,6 +134,14 @@ ANTENNA_INFO  AUSTINTX  FO_SECN MO_AZEL RA_NO   ME_INCM  25.3  0    0    993.3  
 ANTENNA_INFO  AZORES    FO_SECN MO_AZEL RA_NO   ME_COMP  16.1  0    0   1019.6    3.9  0.0000  0      1.00E-5   2.8000 1.20E-5   0.0000 1.20E-5   0.0000 1.20E-5   0.0000 1.20E-5
 # mobile site with MV-2,  from ECCDAT file
 # single occupation
+#----------------------------------------------------------------------------------------
+ANTENNA_INFO  BADRT13V  FO_SECN MO_AZEL RA_NO   ME_COMP   2.5  0    0    918.6   13.2  6.0000  0      1.00E-5   5.3000 1.20E-5   0.0000 1.20E-5   2.5000 1.20E-5   3.9000 1.20E-5
+#  Turning head ring focus antenna  Diameter of primary reflector = 13.2 m
+#  Focal length of primary reflector = 3.602 m
+#  Diameter of secondary reflector = 1.48 m
+#  Focal length of secondary reflector = 0.3 m
+#  Feed ilumination taper in dB unknown
+#  Information as from E. Skurikhina 2020-02-10
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  BADARY    FO_SECN MO_AZEL RA_NO   ME_COMP   2.4  0    0    917.2   32.0  1.0000  0      1.00E-5  21.9000 1.20E-5   0.0025 1.20E-5   1.9000 1.20E-5  10.6000 1.20E-5
 # Telescope dimensions as for Svetloe from Zinovy Malkin 040624, axis offset from Zinovy Malkin 051220
@@ -833,6 +841,14 @@ ANTENNA_INFO  SUWON     FO_SECN MO_AZEL RA_NO   ME_INCM  14.2  0    0   1010.0  
 # Occupation of Korean site with transportable antenna; X band secondary focus, S band: primary focus
 # Mails of Kensuke Kokado, 2008-07-29/30
 #----------------------------------------------------------------------------------------
+ANTENNA_INFO  SVERT13V  FO_SECN MO_AZEL RA_NO   ME_COMP   5.9  0    0   1005.4   13.2  6.0000  0      1.00E-5   5.3000 1.20E-5   0.0000 1.20E-5   2.5000 1.20E-5   3.9000 1.20E-5
+#  Turning head ring focus antenna  Diameter of primary reflector = 13.2 m
+#  Focal length of primary reflector = 3.602 m
+#  Diameter of secondary reflector = 1.48 m
+#  Focal length of secondary reflector = 0.3 m
+#  Feed ilumination taper in dB unknown
+#  Information as from E. Skurikhina 2020-02-10
+#----------------------------------------------------------------------------------------
 ANTENNA_INFO  SVETLOE   FO_SECN MO_AZEL RA_NO   ME_COMP   5.8  0    0   1005.0   32.0  1.0000  0      1.00E-5  21.9000 1.20E-5  -0.0075 1.20E-5   1.9000 1.20E-5  10.6000 1.20E-5
 #  Information on telescope dimensions from Zinovy Malkin 040624
 # Axis offset reported by Iskander Gayazov and Elena Skurikhina 080528, -0.0075 +- 0.0050
@@ -1047,12 +1063,12 @@ ANTENNA_INFO  ZELENCHK  FO_SECN MO_AZEL RA_NO   ME_COMP   7.3  0    0    883.2  
 # from geodetic measurements in Nov-Dec 2005
 # Axis offset estimated by Dan Macmillan 2014.01.07, -0.0118 +- 0.0005, measured valued is recommended
 #----------------------------------------------------------------------------------------
-ANTENNA_INFO  XELRT13V  FO_SECN MO_AZEL RA_NO   ME_COMP   7.4  0    0    884.4   13.2  6.0000  0      1.00E-5   5.3000 1.20E-5   0.0000 1.20E-5   3.6030 1.20E-5   3.9000 1.20E-5
+ANTENNA_INFO  ZELRT13V  FO_SECN MO_AZEL RA_NO   ME_COMP   7.4  0    0    884.4   13.2  6.0000  0      1.00E-5   5.3000 1.20E-5   0.0000 1.20E-5   2.5000 1.20E-5   3.9000 1.20E-5
 #  Turning head ring focus antenna  Diameter of primary reflector = 13.2 m
 #  Focal length of primary reflector = 3.602 m
 #  Diameter of secondary reflector = 1.48 m
 #  Focal length of secondary reflector = 0.3 m
-#  Feed ilumination taper dB 
+#  Feed ilumination taper in dB unknown
 #  Information as from E. Skurikhina 2020-02-10
 #----------------------------------------------------------------------------------------
 #
