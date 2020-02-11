@@ -1,5 +1,5 @@
 $ Antenna Information File  Format Version of 2008.04.22
-## Content Version of 2020-02-10
+## Content Version of 2020-02-11
 #
 # When using this file acknowledgement has to be given to
 #
@@ -16,7 +16,8 @@ $ Antenna Information File  Format Version of 2008.04.22
 #
 #
 # Version:    
-#             2020-02-10 AGGO, RAEGSMAR, MACGO12M added, reference temperatures of TIANMA65, GGAO12M and KOKEE12M corrected
+#             2020-02-11 SVERT13V, BADRT13V, ZELRT13V, NYALE13N, NYALE13S added
+#             2020-02-11 AGGO, RAEGSMAR, MACGO12M added, reference temperatures of TIANMA65, GGAO12M and KOKEE12M corrected
 #             2020-01-06 ONSA13NE and ONSA13SW added as or email by Rüdiger Haas 2019-11-28
 #             2020-01-06 GGAO12M added as of emails with Arthur Niell 2019-11-04
 #             2020-01-06 WESTFORD focus type changed from FO_SECN to FO_PRIM, see Email of Arthur Niell of 2019-11-05
@@ -619,18 +620,26 @@ ANTENNA_INFO  NRAO85_3  FO_PRIM MO_EQUA RA_NO   ME_COMP   9.6  0    0    922.0  
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  NYALES20  FO_PRIM MO_AZEL RA_NO   ME_COMP  -4.1  0    0    998.7   20.0  0.0500  0      1.00E-5  10.8700 1.20E-5   0.5242 1.20E-5   2.4400 1.20E-5   8.6000 1.20E-5
 #  Information as from Svein Rekkedal 990313
-# axxis offset published by Steinforth et al. (2003) 16th Working Meeting
-# on European VLBI, 524.2 +- 0.2 mm
+#  axis offset published by Steinforth et al. (2003) 16th Working Meeting
+#   on European VLBI, 524.2 +- 0.2 mm
 #----------------------------------------------------------------------------------------
-ANTENNA_INFO  *YALES13S  FO_SECN MO_AZEL RA_NO   ME_COMP  -3.9  0    0   1002.7   13.2  6.0000  2.4    1.00E-5   5.0000 1.20E-5  0.0000 1.20E-5   2.5000 1.20E-5   3.9000 1.20E-5
-# Dummy for NYALES13S waiting for numbers, so far numbers are copied from WETTZ13N  
-Turning head ring focus antenna
-#  Diameter of primary reflector = 13.2 m
-#  Focal length of primary reflector = 3.7 m
-#  Diameter of secondary reflector = 1.48 m
-#  Focal length of secondary reflector = 0.3 m
-#  Triband feed ilumination taper 10 dB at 55 deg
-#  Information as from 
+ANTENNA_INFO  NYALE13N  FO_SECN MO_AZEL RA_NO   ME_COMP  -3.9  0    0   1002.7   13.3  7.650   0      1.00E-5   2.9000 1.20E-5   0.0000 1.20E-5   3.2700 1.20E-5   3.9144 1.20E-5
+#  Dimensions from Leif Morten Tangen, Email of 2020-02-11  
+#  Turning head ring focus antenna, by MT Mechatronics
+#  Axis offset 0 +-0.3 mm
+#  Diameter of primary reflector = 13.3 m
+#  QRFH feed, diametre of the sub-reflector 1550 mm
+#  focal length of the main reflector 3.61 m
+#  focal length of the sub-reflector 0.30 m
+#----------------------------------------------------------------------------------------
+ANTENNA_INFO  NYALE13S  FO_SECN MO_AZEL RA_NO   ME_COMP  -3.9  0    0   1002.7   13.3  9.490   0      1.00E-5   2.9000 1.20E-5   0.0000 1.20E-5   3.2700 1.20E-5   3.9144 1.20E-5
+#  Dimensions from Leif Morten Tangen, Email of 2020-02-11  
+#  Turning head ring focus antenna, by MT Mechatronics
+#  Axis offset 0 +-0.3 mm
+#  Diameter of primary reflector = 13.3 m
+#  QRFH feed, diametre of the sub-reflector 1550 mm
+#  focal length of the main reflector 3.61 m
+#  focal length of the sub-reflector 0.30 m
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  OCOTILLO  FO_SECN MO_AZEL RA_NO   ME_INCM  20.4  0    0   1018.9    3.9  0.0000  0      1.00E-5   2.8000 1.20E-5   0.0000 1.20E-5   0.0000 1.20E-5   0.0000 1.20E-5
 # mobile site with MV-2 only, occupied twice
