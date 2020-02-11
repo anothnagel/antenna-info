@@ -1,5 +1,5 @@
 $ Antenna Information File  Format Version of 2008.04.22
-## Content Version of 2020-01-06
+## Content Version of 2020-02-11
 #
 # When using this file acknowledgement has to be given to
 #
@@ -16,6 +16,8 @@ $ Antenna Information File  Format Version of 2008.04.22
 #
 #
 # Version:    
+#             2020-02-11 SVERT13V, BADRT13V, ZELRT13V, NYALE13N, NYALE13S added
+#             2020-02-11 AGGO, RAEGSMAR, MACGO12M added, reference temperatures of TIANMA65, GGAO12M and KOKEE12M corrected
 #             2020-01-06 ONSA13NE and ONSA13SW added as or email by Rüdiger Haas 2019-11-28
 #             2020-01-06 GGAO12M added as of emails with Arthur Niell 2019-11-04
 #             2020-01-06 WESTFORD focus type changed from FO_SECN to FO_PRIM, see Email of Arthur Niell of 2019-11-05
@@ -112,6 +114,11 @@ $ Antenna Information File  Format Version of 2008.04.22
 #  22) 171:177 -- Sub-reflector/primary focus mounting legs thermal expansion coefficient (1/K)
 #
 #----------------------------------------------------------------------------------------
+ANTENNA_INFO  AGGO      FO_PRIM MO_AZEL RA_NO   ME_COMP  17.0  0    0   1011.7    6.0  0.2700   4.73  1.00E-5   1.4600 1.20E-5   0.0000 1.20E-5   0.7500 1.20E-5   4.5000 1.20E-5
+# Information copied from TIGOCONC except ref. temp. and pres., height and depth of foundataion, see Email by Hayo Hase 2020-02-10
+# axis offset reported by Hayo Hase BKG, 2004 on the basis of local measurements
+# 0.0000 +- 0.0003
+#----------------------------------------------------------------------------------------
 ANTENNA_INFO  AIRA      FO_SECN MO_AZEL RA_NO   ME_INCM  16.4  0    0    978.2   10.0  3.0000  0      1.00E-5   6.7000 1.20E-5  -0.0081 1.20E-5   0.0000 1.20E-5   0.0000 1.20E-5
 # Email of Kensuke Kokado, 2008-07-29; X band: secondary focus, S band: primary focus
 # axis offset estimated by L.  Petrov    (pre 2008)  -0.0126 +- 0.0022
@@ -128,6 +135,14 @@ ANTENNA_INFO  AUSTINTX  FO_SECN MO_AZEL RA_NO   ME_INCM  25.3  0    0    993.3  
 ANTENNA_INFO  AZORES    FO_SECN MO_AZEL RA_NO   ME_COMP  16.1  0    0   1019.6    3.9  0.0000  0      1.00E-5   2.8000 1.20E-5   0.0000 1.20E-5   0.0000 1.20E-5   0.0000 1.20E-5
 # mobile site with MV-2,  from ECCDAT file
 # single occupation
+#----------------------------------------------------------------------------------------
+ANTENNA_INFO  BADRT13V  FO_SECN MO_AZEL RA_NO   ME_COMP   2.5  0    0    918.6   13.2  6.0000  0      1.00E-5   5.3000 1.20E-5   0.0000 1.20E-5   2.5000 1.20E-5   3.9000 1.20E-5
+#  Turning head ring focus antenna  Diameter of primary reflector = 13.2 m
+#  Focal length of primary reflector = 3.602 m
+#  Diameter of secondary reflector = 1.48 m
+#  Focal length of secondary reflector = 0.3 m
+#  Feed ilumination taper in dB unknown
+#  Information as from E. Skurikhina 2020-02-10
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  BADARY    FO_SECN MO_AZEL RA_NO   ME_COMP   2.4  0    0    917.2   32.0  1.0000  0      1.00E-5  21.9000 1.20E-5   0.0025 1.20E-5   1.9000 1.20E-5  10.6000 1.20E-5
 # Telescope dimensions as for Svetloe from Zinovy Malkin 040624, axis offset from Zinovy Malkin 051220
@@ -199,6 +214,12 @@ ANTENNA_INFO  DSS15     FO_SECN MO_AZEL RA_NO   ME_COMP  12.6  0    0    903.8  
 #  Information as from C. Jacobs 990311
 # axis offset estimated by L.  Petrov    (pre 2008)  -0.0039 +- 0.0015
 # axis offset estimated by Dan Macmillan 2014.01.07, -0.0037 +- 0.0016
+#----------------------------------------------------------------------------------------
+ANTENNA_INFO  XSS34     FO_SECN MO_AZEL RA_NO   ME_COMP  14.0  0    0    939.4   34.0  3.0000  0      1.00E-5  16.8000 1.20E-5  -0.0037 1.20E-5   2.7000 1.20E-5  10.8000 1.20E-5
+# Dummy for DSS34, temp. and pressure are correct
+#----------------------------------------------------------------------------------------
+ANTENNA_INFO  XSS36     FO_SECN MO_AZEL RA_NO   ME_COMP  14.0  0    0    940.1   34.0  3.0000  0      1.00E-5  16.8000 1.20E-5  -0.0037 1.20E-5   2.7000 1.20E-5  10.8000 1.20E-5
+# Dummy for DSS36, temp. and pressure are correct
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  DSS45     FO_SECN MO_AZEL RA_NO   ME_COMP  14.1  0    0    941.4   34.0  3.0000  0      1.00E-5  16.8000 1.20E-5  -0.0011 1.20E-5   2.7000 1.20E-5  10.8000 1.20E-5
 #  Information as from C. Jacobs 990311
@@ -273,10 +294,11 @@ ANTENNA_INFO  GBT-VLBA  FO_SECN MO_AZEL RA_NO   ME_INCM   9.3  0    0    917.8  
 # axis offset estimated by L.  Petrov    (pre 2008)  -0.0883 +- 0.0066
 # axis offset estimated by Dan Macmillan 2014.01.07, -0.0879 +- 0.0067
 #----------------------------------------------------------------------------------------
-ANTENNA_INFO  GGAO12M   FO_SECN MO_AZEL RA_NO   ME_COMP  13.4  0    0   1010.5   12.0  0.0000  0      1.00E-5   6.3000 1.20E-5   0.0018 1.20E-5   2.5000 1.20E-5   4.2620 1.20E-5
+ANTENNA_INFO  GGAO12M   FO_SECN MO_AZEL RA_NO   ME_COMP  13.3  0    0   1009.9   12.0  0.0000  0      1.00E-5   6.3000 1.20E-5   0.0018 1.20E-5   2.5000 1.20E-5   4.2620 1.20E-5
 # axis offset = +1.8 (+/-1.7) mm from the NGS survey of the Goddard complex made in 2012 Jun-Aug
 # (https://www.ngs.noaa.gov/corbin/iss/reports/WashingtonSiteLocalTieSurvey.pdf)
 # Info by email of Arthur Niell 2019-11-05
+# 2020-02-10: Mean temperature and pressure now correctly computed with GPT, previous values were taken from GGAO7108 
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  GGAO7108  FO_SECN MO_AZEL RA_NO   ME_COMP  13.4  0    0   1010.5    5.0  0.0000  0      1.00E-5   4.4000 1.20E-5  -0.0026 1.20E-5   1.3000 1.20E-5   1.6000 1.20E-5
 # mobile site with MV-3, occupied monument 7108 since 1993-04-01,
@@ -441,7 +463,9 @@ ANTENNA_INFO  KOKEE     FO_PRIM MO_AZEL RA_NO   ME_COMP  16.9  0    0    884.4  
 # axis offset estimated by L.  Petrov    (pre 2008)  0.5182 +- 0.0003
 # Axis offset estimated by Dan Macmillan 2014.01.07,  0.5180 +- 0.0003
 #----------------------------------------------------------------------------------------
-ANTENNA_INFO  KOKEE12M  FO_SECN MO_AZEL RA_NO   ME_COMP  16.9  0    0    884.4   12.0  0.0000  0      1.00E-5   6.3000 1.20E-5   0.0020 1.20E-5   2.5000 1.20E-5   4.2620 1.20E-5
+ANTENNA_INFO  KOKEE12M  FO_SECN MO_AZEL RA_NO   ME_COMP  17.0  0    0    885.3   12.0  0.0000  0      1.00E-5   6.3000 1.20E-5   0.0020 1.20E-5   2.5000 1.20E-5   4.2620 1.20E-5
+# Infos according to Arthur Niell, emails 2019-08-07 and following
+# 2020-02-10: Mean temperature and pressure now correctly computed with GPT, previous values were taken over from KOKEE 
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  KP-VLBA   FO_SECN MO_AZEL RA_NO   ME_COMP  10.2  0    0    806.2   25.0  0.5000  0      1.00E-5  13.7000 1.20E-5   2.1313 1.20E-5   4.6000 1.20E-5   8.8000 1.20E-5
 #  Napier et al. Proc. IEEE Vol. 82, p. 658, 1994
@@ -464,6 +488,9 @@ ANTENNA_INFO  LA-VLBA   FO_SECN MO_AZEL RA_NO   ME_COMP  10.1  0    0    801.3  
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  LEONRDOK  FO_SECN MO_AZEL RA_NO   ME_INCM  21.0  0    0    988.9    5.0  0.0000  0      1.00E-5   4.4000 1.20E-5   0.0000 1.20E-5   0.0000 1.20E-5   0.0000 1.20E-5
 # mobile site with MV-3 one time occupation
+#----------------------------------------------------------------------------------------
+ANTENNA_INFO  MACGO12M  FO_SECN MO_AZEL RA_NO   ME_COMP  13.6  0    0    808.6   12.0  0.0000  0      1.00E-5   6.3000 1.20E-5   0.0020 1.20E-5   2.5000 1.20E-5   4.2620 1.20E-5
+# Infos according to Arthur Niell identical to KOKEE12M, emails 2019-08-07 and following
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  MAMMOTHL  FO_SECN MO_AZEL RA_NO   ME_INCM   2.4  0    0    767.3    5.0  0.0000  0      1.00E-5   4.2000 1.20E-5   0.0000 1.20E-5   0.0000 1.20E-5   0.0000 1.20E-5
 # mobile site with MV-2 and MV-3 
@@ -593,8 +620,26 @@ ANTENNA_INFO  NRAO85_3  FO_PRIM MO_EQUA RA_NO   ME_COMP   9.6  0    0    922.0  
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  NYALES20  FO_PRIM MO_AZEL RA_NO   ME_COMP  -4.1  0    0    998.7   20.0  0.0500  0      1.00E-5  10.8700 1.20E-5   0.5242 1.20E-5   2.4400 1.20E-5   8.6000 1.20E-5
 #  Information as from Svein Rekkedal 990313
-# axxis offset published by Steinforth et al. (2003) 16th Working Meeting
-# on European VLBI, 524.2 +- 0.2 mm
+#  axis offset published by Steinforth et al. (2003) 16th Working Meeting
+#   on European VLBI, 524.2 +- 0.2 mm
+#----------------------------------------------------------------------------------------
+ANTENNA_INFO  NYALE13N  FO_SECN MO_AZEL RA_NO   ME_COMP  -3.9  0    0   1002.7   13.3  7.650   0      1.00E-5   2.9000 1.20E-5   0.0000 1.20E-5   3.2700 1.20E-5   3.9144 1.20E-5
+#  Dimensions from Leif Morten Tangen, Email of 2020-02-11  
+#  Turning head ring focus antenna, by MT Mechatronics
+#  Axis offset 0 +-0.3 mm
+#  Diameter of primary reflector = 13.3 m
+#  QRFH feed, diametre of the sub-reflector 1550 mm
+#  focal length of the main reflector 3.61 m
+#  focal length of the sub-reflector 0.30 m
+#----------------------------------------------------------------------------------------
+ANTENNA_INFO  NYALE13S  FO_SECN MO_AZEL RA_NO   ME_COMP  -3.9  0    0   1002.7   13.3  9.490   0      1.00E-5   2.9000 1.20E-5   0.0000 1.20E-5   3.2700 1.20E-5   3.9144 1.20E-5
+#  Dimensions from Leif Morten Tangen, Email of 2020-02-11  
+#  Turning head ring focus antenna, by MT Mechatronics
+#  Axis offset 0 +-0.3 mm
+#  Diameter of primary reflector = 13.3 m
+#  QRFH feed, diametre of the sub-reflector 1550 mm
+#  focal length of the main reflector 3.61 m
+#  focal length of the sub-reflector 0.30 m
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  OCOTILLO  FO_SECN MO_AZEL RA_NO   ME_INCM  20.4  0    0   1018.9    3.9  0.0000  0      1.00E-5   2.8000 1.20E-5   0.0000 1.20E-5   0.0000 1.20E-5   0.0000 1.20E-5
 # mobile site with MV-2 only, occupied twice
@@ -712,7 +757,18 @@ ANTENNA_INFO  QUINCY    FO_SECN MO_AZEL RA_NO   ME_INCM   9.0  0    0    889.8  
 # 1988.10.30 - 1989.05.04 MV-3. Hp = 4.3 m
 # 1989.05.05 - 2000.01.01 MV-2, Hp = 2.8 m
 #----------------------------------------------------------------------------------------
-ANTENNA_INFO  RAEGYEB   FO_SECN MO_AZEL RA_NO   ME_COMP  11.6  0    0    911.8   13.7  7.0000  0      1.00E-5   1.9000 1.20E-5   0.0000 1.20E-5   3.2700 1.20E-5   3.9100 1.20E-5
+ANTENNA_INFO  RAEGSMAR  FO_SECN MO_AZEL RA_NO   ME_COMP  14.9  0    0    990.6   13.2  7.0000  0      1.00E-5   1.9000 1.20E-5   0.0000 1.20E-5   3.2700 1.20E-5   3.9100 1.20E-5
+# Information as from José Antonio López-Pérez 2020-02-07 being identical to RAEGYEB
+# Turning head ring focus telescope
+# Mean temperature and pressure computed from model with a priori position from SKED pos file
+# N.B.: hv and hs ignore the rather long cone holding the feed rather close to the subreflector
+# N.B.: Distance from VLBI reference point (invariant point) to feed horn is 6.88 m
+# N.B.: Distance from feed horn to most prominent part of the secondary focus is 0.30 m
+# 1. Illumination taper 16 dB
+# 2) Diameter of primary reflector: 13.2 m. Focal length: 3.7 m
+# 3) Diameter of secondary reflector: 1.55 m. Focal length: 0.75 m. Distance from the vertex of the primary mirror: 3.91 m
+#----------------------------------------------------------------------------------------
+ANTENNA_INFO  RAEGYEB   FO_SECN MO_AZEL RA_NO   ME_COMP  11.6  0    0    911.8   13.2  7.0000  0      1.00E-5   1.9000 1.20E-5   0.0000 1.20E-5   3.2700 1.20E-5   3.9100 1.20E-5
 # Information as from Pablo de Vicente 2015-03-09/2015-03-13
 # Turning head ring focus telescope
 # Mean temperature and pressure copied from YEBES
@@ -794,6 +850,14 @@ ANTENNA_INFO  SUWON     FO_SECN MO_AZEL RA_NO   ME_INCM  14.2  0    0   1010.0  
 # Occupation of Korean site with transportable antenna; X band secondary focus, S band: primary focus
 # Mails of Kensuke Kokado, 2008-07-29/30
 #----------------------------------------------------------------------------------------
+ANTENNA_INFO  SVERT13V  FO_SECN MO_AZEL RA_NO   ME_COMP   5.9  0    0   1005.4   13.2  6.0000  0      1.00E-5   5.3000 1.20E-5   0.0000 1.20E-5   2.5000 1.20E-5   3.9000 1.20E-5
+#  Turning head ring focus antenna  Diameter of primary reflector = 13.2 m
+#  Focal length of primary reflector = 3.602 m
+#  Diameter of secondary reflector = 1.48 m
+#  Focal length of secondary reflector = 0.3 m
+#  Feed ilumination taper in dB unknown
+#  Information as from E. Skurikhina 2020-02-10
+#----------------------------------------------------------------------------------------
 ANTENNA_INFO  SVETLOE   FO_SECN MO_AZEL RA_NO   ME_COMP   5.8  0    0   1005.0   32.0  1.0000  0      1.00E-5  21.9000 1.20E-5  -0.0075 1.20E-5   1.9000 1.20E-5  10.6000 1.20E-5
 #  Information on telescope dimensions from Zinovy Malkin 040624
 # Axis offset reported by Iskander Gayazov and Elena Skurikhina 080528, -0.0075 +- 0.0050
@@ -808,10 +872,10 @@ ANTENNA_INFO  TATEYAMA  FO_SECN MO_AZEL RA_NO   ME_COMP  15.2  0    0   1002.7  
 # axis offset estimated by L.  Petrov    (pre 2008)  0.0069 +- 0.0024
 # Axis offset estimated by Dan Macmillan 2014.01.07,  0.0021 +- 0.0022
 #----------------------------------------------------------------------------------------
-ANTENNA_INFO  TIANMA65  FO_SECN MO_AZEL RA_NO   ME_COMP  18.9  0    0   1010.4   65.0  0.8000  0      1.00E-5  33.8560 1.20E-5   0.0071 1.20E-5   6.6710 1.20E-5  19.5680 1.20E-5
+ANTENNA_INFO  TIANMA65  FO_SECN MO_AZEL RA_NO   ME_COMP  18.8  0    0   1008.0   65.0  0.8000  0      1.00E-5  33.8560 1.20E-5   0.0071 1.20E-5   6.6710 1.20E-5  19.5680 1.20E-5
 #  Information as from Qingyuan Fan and Bin Li 2013-10-25 via Fengshun Shu
 # axis offset measured by antenna company/ Jinling Li
-# reference temperature copied from SESHAN (should not change much when we get the first XYZ position)
+# 2020-02-10: reference temperature now correctly computed with GPT. Earlier numbers, 18.9/1010.4 had only been copied from SESHAN
 # D = 65 m, F/D = 0.32, F = 20.8 m, Subreflector: D = 6.5 m, F = 12.78, Illumination taper = -17dB
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  TIDBIN64  FO_SECN MO_AZEL RA_NO   ME_ROUG  14.0  0    0    939.7   64.0  0.0000  0      1.00E-5  32.0000 1.20E-5  -0.0485 1.20E-5   0.0000 1.20E-5   0.0000 1.20E-5
@@ -1007,6 +1071,14 @@ ANTENNA_INFO  ZELENCHK  FO_SECN MO_AZEL RA_NO   ME_COMP   7.3  0    0    883.2  
 # Telescope dimensions as for Svetloe from Zinovy Malkin 040624, axis offset from Zinovy Malkin 051220
 # from geodetic measurements in Nov-Dec 2005
 # Axis offset estimated by Dan Macmillan 2014.01.07, -0.0118 +- 0.0005, measured valued is recommended
+#----------------------------------------------------------------------------------------
+ANTENNA_INFO  ZELRT13V  FO_SECN MO_AZEL RA_NO   ME_COMP   7.4  0    0    884.4   13.2  6.0000  0      1.00E-5   5.3000 1.20E-5   0.0000 1.20E-5   2.5000 1.20E-5   3.9000 1.20E-5
+#  Turning head ring focus antenna  Diameter of primary reflector = 13.2 m
+#  Focal length of primary reflector = 3.602 m
+#  Diameter of secondary reflector = 1.48 m
+#  Focal length of secondary reflector = 0.3 m
+#  Feed ilumination taper in dB unknown
+#  Information as from E. Skurikhina 2020-02-10
 #----------------------------------------------------------------------------------------
 #
 $ Antenna Information File  Format Version of 2008.04.22
