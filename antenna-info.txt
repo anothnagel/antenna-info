@@ -137,7 +137,7 @@ ANTENNA_INFO  AZORES    FO_SECN MO_AZEL RA_NO   ME_COMP  16.1  0    0   1019.6  
 # single occupation
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  BADRT13V  FO_SECN MO_AZEL RA_NO   ME_COMP   2.5  0    0    918.6   13.2  6.0000  0      1.00E-5   5.3000 1.20E-5   0.0000 1.20E-5   2.5000 1.20E-5   3.9000 1.20E-5
-#  Turning head ring focus antenna  Diameter of primary reflector = 13.2 m
+#  Turning head ring focus antenna, design: Vertex Antennentechnik, Diameter of primary reflector = 13.2 m
 #  Focal length of primary reflector = 3.602 m
 #  Diameter of secondary reflector = 1.48 m
 #  Focal length of secondary reflector = 0.3 m
@@ -623,21 +623,20 @@ ANTENNA_INFO  NYALES20  FO_PRIM MO_AZEL RA_NO   ME_COMP  -4.1  0    0    998.7  
 #  axis offset published by Steinforth et al. (2003) 16th Working Meeting
 #   on European VLBI, 524.2 +- 0.2 mm
 #----------------------------------------------------------------------------------------
-ANTENNA_INFO  NYALE13N  FO_SECN MO_AZEL RA_NO   ME_COMP  -3.9  0    0   1002.7   13.3  7.650   0      1.00E-5   2.9000 1.20E-5   0.0000 1.20E-5   3.2700 1.20E-5   3.9144 1.20E-5
+ANTENNA_INFO  NYALE13N  FO_SECN MO_AZEL RA_NO   ME_COMP  -3.9  0    0   1002.7   13.2  7.650   0      1.00E-5   2.9000 1.20E-5   0.0000 1.20E-5   3.2700 1.20E-5   3.9144 1.20E-5
 #  Dimensions from Leif Morten Tangen, Email of 2020-02-11  
-#  Turning head ring focus antenna, by MT Mechatronics
+#  Turning head ring focus antenna, design: MT Mechatronics, Diameter of primary reflector = 13.2 m
 #  Axis offset 0 +-0.3 mm
-#  Diameter of primary reflector = 13.3 m
-#  QRFH feed, diametre of the sub-reflector 1550 mm
+#  QRFH feed, diametre of the sub-reflector physical 1550 mm, optical 1480 mm
 #  focal length of the main reflector 3.61 m
 #  focal length of the sub-reflector 0.30 m
 #----------------------------------------------------------------------------------------
-ANTENNA_INFO  NYALE13S  FO_SECN MO_AZEL RA_NO   ME_COMP  -3.9  0    0   1002.7   13.3  9.490   0      1.00E-5   2.9000 1.20E-5   0.0000 1.20E-5   3.2700 1.20E-5   3.9144 1.20E-5
+ANTENNA_INFO  NYALE13S  FO_SECN MO_AZEL RA_NO   ME_COMP  -3.9  0    0   1002.7   13.2  9.490   0      1.00E-5   2.9000 1.20E-5   0.0000 1.20E-5   3.2700 1.20E-5   3.9144 1.20E-5
 #  Dimensions from Leif Morten Tangen, Email of 2020-02-11  
+#  Turning head ring focus antenna, design: MT Mechatronics, Diameter of primary reflector = 13.2 m
 #  Turning head ring focus antenna, by MT Mechatronics
 #  Axis offset 0 +-0.3 mm
-#  Diameter of primary reflector = 13.3 m
-#  QRFH feed, diametre of the sub-reflector 1550 mm
+#  QRFH feed, diametre of the sub-reflector physical 1550 mm, optical 1480 mm
 #  focal length of the main reflector 3.61 m
 #  focal length of the sub-reflector 0.30 m
 #----------------------------------------------------------------------------------------
@@ -659,7 +658,7 @@ ANTENNA_INFO  ONSALA85  FO_SECN MO_EQUA RA_NO   ME_ROUG   9.0  0    0   1010.8  
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  ONSA13NE  FO_SECN MO_AZEL RA_NO   ME_COMP   9.0  0    0   1010.7   13.2  7.640   0      1.00E-5   2.8600 1.20E-5   0.0000 1.20E-5   3.2700 1.20E-5   3.9144 1.20E-5
 # Information as from R. Haas 2019-11-28
-# Turning head ring focus telescope
+# Turning head ring focus antenna, design: MT Mechatronics, Diameter of primary reflector = 13.2 m
 # Mean temperature and pressure copied from ONALA60
 # hf = 7640 mm (i.e. the concrete tower, wall thickness 400 mm, insulated from outside)
 # hp = 2860 mm (i.e. elevation axis is 2860 mm above top of concrete tower)
@@ -671,7 +670,7 @@ ANTENNA_INFO  ONSA13NE  FO_SECN MO_AZEL RA_NO   ME_COMP   9.0  0    0   1010.7  
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  ONSA13SW  FO_SECN MO_AZEL RA_NO   ME_COMP   9.0  0    0   1010.7   13.2  7.640   0      1.00E-5   2.8600 1.20E-5   0.0000 1.20E-5   3.2700 1.20E-5   3.9144 1.20E-5
 # Information as from R. Haas 2019-11-28
-# Turning head ring focus telescope
+# Turning head ring focus antenna, design: MT Mechatronics, Diameter of primary reflector = 13.2 m
 # Mean temperature and pressure copied from ONALA60
 # hf = 7640 mm (i.e. the concrete tower, wall thickness 400 mm, insulated from outside)
 # hp = 2860 mm (i.e. elevation axis is 2860 mm above top of concrete tower)
@@ -759,7 +758,7 @@ ANTENNA_INFO  QUINCY    FO_SECN MO_AZEL RA_NO   ME_INCM   9.0  0    0    889.8  
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  RAEGSMAR  FO_SECN MO_AZEL RA_NO   ME_COMP  14.9  0    0    990.6   13.2  7.0000  0      1.00E-5   1.9000 1.20E-5   0.0000 1.20E-5   3.2700 1.20E-5   3.9100 1.20E-5
 # Information as from José Antonio López-Pérez 2020-02-07 being identical to RAEGYEB
-# Turning head ring focus telescope
+# Turning head ring focus antenna, design: MT Mechatronics, Diameter of primary reflector = 13.2 m
 # Mean temperature and pressure computed from model with a priori position from SKED pos file
 # N.B.: hv and hs ignore the rather long cone holding the feed rather close to the subreflector
 # N.B.: Distance from VLBI reference point (invariant point) to feed horn is 6.88 m
@@ -770,7 +769,7 @@ ANTENNA_INFO  RAEGSMAR  FO_SECN MO_AZEL RA_NO   ME_COMP  14.9  0    0    990.6  
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  RAEGYEB   FO_SECN MO_AZEL RA_NO   ME_COMP  11.6  0    0    911.8   13.2  7.0000  0      1.00E-5   1.9000 1.20E-5   0.0000 1.20E-5   3.2700 1.20E-5   3.9100 1.20E-5
 # Information as from Pablo de Vicente 2015-03-09/2015-03-13
-# Turning head ring focus telescope
+# Turning head ring focus antenna, design: MT Mechatronics, Diameter of primary reflector = 13.2 m
 # Mean temperature and pressure copied from YEBES
 # N.B.: hv and hs ignore the rather long cone holding the feed rather close to the subreflector
 # N.B.: Distance from VLBI reference point (invariant point) to feed horn is 6.88 m
@@ -851,7 +850,7 @@ ANTENNA_INFO  SUWON     FO_SECN MO_AZEL RA_NO   ME_INCM  14.2  0    0   1010.0  
 # Mails of Kensuke Kokado, 2008-07-29/30
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  SVERT13V  FO_SECN MO_AZEL RA_NO   ME_COMP   5.9  0    0   1005.4   13.2  6.0000  0      1.00E-5   5.3000 1.20E-5   0.0000 1.20E-5   2.5000 1.20E-5   3.9000 1.20E-5
-#  Turning head ring focus antenna  Diameter of primary reflector = 13.2 m
+#  Turning head ring focus antenna, design: Vertex Antennentechnik, Diameter of primary reflector = 13.2 m
 #  Focal length of primary reflector = 3.602 m
 #  Diameter of secondary reflector = 1.48 m
 #  Focal length of secondary reflector = 0.3 m
@@ -1006,8 +1005,7 @@ ANTENNA_INFO  WETTZELL  FO_SECN MO_AZEL RA_NO   ME_COMP   7.8  0    0    943.9  
 #  Distance from Vertex to the Subreflector = 7.9 m (on axis)
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  WETTZ13N  FO_SECN MO_AZEL RA_NO   ME_COMP   7.8  0    0    943.9   13.2  6.0000  2.4    1.00E-5   5.0000 1.20E-5   0.0000 1.20E-5   2.5000 1.20E-5   3.9000 1.20E-5
-#  Turning head ring focus antenna
-#  Diameter of primary reflector = 13.2 m
+#  Turning head ring focus antenna, design: Vertex Antennentechnik, Diameter of primary reflector = 13.2 m
 #  Focal length of primary reflector = 3.7 m
 #  Diameter of secondary reflector = 1.48 m
 #  Focal length of secondary reflector = 0.3 m
@@ -1015,8 +1013,7 @@ ANTENNA_INFO  WETTZ13N  FO_SECN MO_AZEL RA_NO   ME_COMP   7.8  0    0    943.9  
 #  Information as from G. Kronschnabl 2012-07-20
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  WETTZ13S  FO_SECN MO_AZEL RA_NO   ME_COMP   7.8  0    0    943.9   13.2  6.0000  3.2    1.00E-5   5.0000 1.20E-5   0.0000 1.20E-5   2.5000 1.20E-5   3.9000 1.20E-5
-#  Turning head ring focus antenna
-#  Diameter of primary reflector = 13.2 m
+#  Turning head ring focus antenna, design: Vertex Antennentechnik, Diameter of primary reflector = 13.2 m
 #  Focal length of primary reflector = 3.7 m
 #  Diameter of secondary reflector = 1.48 m
 #  Focal length of secondary reflector = 0.3 m
@@ -1073,7 +1070,7 @@ ANTENNA_INFO  ZELENCHK  FO_SECN MO_AZEL RA_NO   ME_COMP   7.3  0    0    883.2  
 # Axis offset estimated by Dan Macmillan 2014.01.07, -0.0118 +- 0.0005, measured valued is recommended
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  ZELRT13V  FO_SECN MO_AZEL RA_NO   ME_COMP   7.4  0    0    884.4   13.2  6.0000  0      1.00E-5   5.3000 1.20E-5   0.0000 1.20E-5   2.5000 1.20E-5   3.9000 1.20E-5
-#  Turning head ring focus antenna  Diameter of primary reflector = 13.2 m
+#  Turning head ring focus antenna, design: Vertex Antennentechnik, Diameter of primary reflector = 13.2 m
 #  Focal length of primary reflector = 3.602 m
 #  Diameter of secondary reflector = 1.48 m
 #  Focal length of secondary reflector = 0.3 m
