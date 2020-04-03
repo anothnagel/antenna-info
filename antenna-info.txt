@@ -1,5 +1,5 @@
 $ Antenna Information File  Format Version of 2008.04.22
-## Content Version of 2020-04-02
+## Content Version of 2020-04-03
 #
 # When using this file acknowledgement has to be given to
 #
@@ -16,6 +16,7 @@ $ Antenna Information File  Format Version of 2008.04.22
 #
 #
 # Version:    
+#             2020-04-03 Revised WESTFORD expansion coefficients for 0.6 factor to allow direct use in a general model
 #             2020-04-02 Assigned same axis offsets to DSS65 and DSS65a
 #             2020-03-19 ISHIOKA axis offset updated
 #             2020-03-02 Multiple new axis offset estimates by Dan Macmillan added for ITRF2020 computations
@@ -1054,12 +1055,16 @@ ANTENNA_INFO  WARK12M   FO_SECN MO_AZEL RA_NO   ME_COMP  14.5  0    0   1002.6  
 # Axis offset measured by John Dawson of Geoscience Austalia (+ 1.0 +/- 0.2mm) and reported by Paula Gentle, email of Feb 26, 2013
 #
 #----------------------------------------------------------------------------------------
-ANTENNA_INFO  WESTFORD  FO_PRIM MO_AZEL RA_YES  ME_COMP   8.9  0    0   1001.3   18.0 10.6000  0      1.00E-5   8.3000 1.20E-5   0.3186 1.20E-5   3.0000 1.20E-5   3.6000 1.20E-5
+ANTENNA_INFO  WESTFORD  FO_PRIM MO_AZEL RA_YES  ME_COMP   8.9  0    0   1001.3   18.0 10.6000  0      0.60E-5   8.3000 0.72E-5   0.3186 0.72E-5   3.0000 0.72E-5   3.6000 0.720E-5
 #  Information as from A. Nothnagel 950523, 10.6 m see Email by Arthur Niell 1999-08-10
 #  Changed from FO_SECN to FO_PRIM on 2020-01-06, see Email of Arthur Niell of 2019-11-05
 # axis offset estimated by L.  Petrov    (pre 2008)   0.3163 +- 0.0002
 # Axis offset estimated by Dan Macmillan 2014.01.07,  0.3182 +- 0.0002
 # axis offset estimated by Dan Macmillan 2020.02.14,  0.3186 +- 0.0002
+# 2020-04-03, On suggestion of Dan Macmillan, the original thermal expansion coefficients of 10.6 m concrete (1.00E-5) and the 
+# steel components (1.20E-5) are scaled by the temperature reduction factor of 0.6 as reported by A. Niell in 1999 for the 
+# temperature inside the radome. Through this conversion, the computations do not require a specific handling of the Westford
+# outside temperatures to reflect the damping to the inside.
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  WETTZELL  FO_SECN MO_AZEL RA_NO   ME_COMP   7.8  0    0    943.9   20.0  8.0000  0      1.00E-5   4.0000 1.20E-5  -0.0001 1.20E-5   3.7000 1.20E-5   7.9000 1.20E-5
 #  Information as from A. Nothnagel 950523
