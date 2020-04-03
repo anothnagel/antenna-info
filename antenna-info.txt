@@ -16,7 +16,8 @@ $ Antenna Information File  Format Version of 2008.04.22
 #
 #
 # Version:    
-#             2020-04-03 Revised WESTFORD expansion coefficients for 0.6 factor to allow direct use in a general model
+#             2020-04-03 Revised WESTFORD expansion coefficients for 0.6 factor to allow direct use of outside tempertures 
+#                        in a general model
 #             2020-04-02 Assigned same axis offsets to DSS65 and DSS65a
 #             2020-03-19 ISHIOKA axis offset updated
 #             2020-03-02 Multiple new axis offset estimates by Dan Macmillan added for ITRF2020 computations
