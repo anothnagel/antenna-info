@@ -1,5 +1,5 @@
 $ Antenna Information File  Format Version of 2008.04.22
-## Content Version of 2020-04-14
+## Content Version of 2020-04-23
 #
 # When using this file acknowledgement has to be given to
 #
@@ -16,6 +16,7 @@ $ Antenna Information File  Format Version of 2008.04.22
 #
 #
 # Version:    
+#             2020-04-23 Corrected typos for CHICHI10 and HAYSTACK, detected by Matthias Glomsda
 #             2020-04-14 WESTFORD revision reversed to old entries, YARRA12M, KATH12M, HOBART12, HOBART26 updated
 #             2020-04-03 Revised WESTFORD expansion coefficients for 0.6 factor to allow direct use of outside tempertures 
 #                        in a general model
@@ -186,7 +187,7 @@ ANTENNA_INFO  CARNUSTY  FO_SECN MO_AZEL RA_NO   ME_COMP   9.6  0    0   1010.8  
 ANTENNA_INFO  CARROLGA  FO_SECN MO_AZEL RA_NO   ME_INCM  19.0  0    0    979.0    5.0  0.0000  0      1.00E-5   4.3000 1.20E-5   0.0000 1.20E-5   0.0000 1.20E-5   0.0000 1.20E-5
 # MV-3 one time occupation
 #----------------------------------------------------------------------------------------
-ANTENNA_INFO  CHICHI10  FO_SECN MO_AZEL RA_NO   ME_INCM  22.9  0    0   1005.4   10.0  3.0000  0      1.00E-5   6.7000 1.20E-5  -0.018 1.20E-5   0.0000 1.20E-5   0.0000 1.20E-5
+ANTENNA_INFO  CHICHI10  FO_SECN MO_AZEL RA_NO   ME_INCM  22.9  0    0   1005.4   10.0  3.0000  0      1.00E-5   6.7000 1.20E-5  -0.0018 1.20E-5   0.0000 1.20E-5   0.0000 1.20E-5
 # Email of Kensuke Kokado, 2008-07-29; X band: secondary focus, S band: primary focus
 # axis offset estimated by L.  Petrov    (pre 2008)  -0.0025 +- 0.0023
 # axis offset estimated by Dan Macmillan 2014.01.07, -0.0047 +- 0.0014
@@ -377,7 +378,7 @@ ANTENNA_INFO  HATCREEK  FO_PRIM MO_EQUA RA_NO   ME_COMP   9.3  0    0    900.1  
 # Axis offset estimated by Dan Macmillan 2014.01.07, -0.0095 +- 0.0012
 # axis offset estimated by Dan Macmillan 2020.02.14, -0.0100 +- 0.0010
 #----------------------------------------------------------------------------------------
-ANTENNA_INFO  HAYSTACK  FO_SECN MO_AZEL RA_YES  ME_COMP   8.6  0    0    997.7   37.0 10.4500  0      1.00E-5  13.6000 1.20E-5  -0.0012 1.20E-5   4.3000 1.20E-5  13.950  2.30E-5
+ANTENNA_INFO  HAYSTACK  FO_SECN MO_AZEL RA_YES  ME_COMP   8.6  0    0    997.7   37.0 10.4500  0      1.00E-5  13.6000 1.20E-5   0.0019 1.20E-5   4.3000 1.20E-5  13.950  2.30E-5
 # Infos by Arthur Niell, 2008-08-11
 # "The other effect is the gravitational sag of the subreflector, which is 
 # documented in Carter et al JGR Vol 85 B5 pp 2685-2687 as 13 mm sin elev."
