@@ -1,5 +1,5 @@
 $ Antenna Information File  Format Version of 2008.04.22
-## Content Version of 2020-04-14
+## Content Version of 2020-04-23
 #
 # When using this file acknowledgement has to be given to
 #
@@ -16,6 +16,7 @@ $ Antenna Information File  Format Version of 2008.04.22
 #
 #
 # Version:    
+#             2020-04-23 Corrected typos for CHICHI10 and HAYSTACK, detected by Matthias Glomsda
 #             2020-04-14 WESTFORD revision reversed to old entries, YARRA12M, KATH12M, HOBART12, HOBART26 updated
 #             2020-04-03 Revised WESTFORD expansion coefficients for 0.6 factor to allow direct use of outside tempertures 
 #                        in a general model
