@@ -1,5 +1,5 @@
 $ Antenna Information File  Format Version of 2008.04.22
-## Content Version of 2020-04-23
+## Content Version of 2020-04-23 NN
 #
 # When using this file acknowledgement has to be given to
 #
