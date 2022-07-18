@@ -15,7 +15,8 @@ $ Antenna Information File  Format Version of 2008.04.22
 # d) the axis offset 
 #
 #
-# Version:    
+# Version: 
+#             2022-07-18 DSS26, DSS34, DSS36, DSS56 added; HARTRAO and HART15M axis offset corrected
 #             2020-04-23 Corrected typos for CHICHI10 and HAYSTACK, detected by Matthias Glomsda
 #             2020-04-14 WESTFORD revision reversed to old entries, YARRA12M, KATH12M, HOBART12, HOBART26 updated
 #             2020-04-03 Revised WESTFORD expansion coefficients for 0.6 factor to allow direct use of outside tempertures 
