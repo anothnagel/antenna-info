@@ -16,7 +16,7 @@ $ Antenna Information File  Format Version of 2008.04.22
 #
 #
 # Version: 
-#             2022-07-18 DSS26, DSS34, DSS36, DSS56 added; HARTRAO and HART15M axis offset corrected
+#             2022-07-18 DSS26, DSS34, DSS36, DSS56 added; new HARTRAO and HART15M axis offsets according to 2021 report
 #             2020-04-23 Corrected typos for CHICHI10 and HAYSTACK, detected by Matthias Glomsda
 #             2020-04-14 WESTFORD revision reversed to old entries, YARRA12M, KATH12M, HOBART12, HOBART26 updated
 #             2020-04-03 Revised WESTFORD expansion coefficients for 0.6 factor to allow direct use of outside tempertures 
@@ -371,17 +371,15 @@ ANTENNA_INFO  HALEAKAL  FO_SECN MO_AZEL RA_NO   ME_INCM   4.9  0    0    698.8  
 # mobile site with MV-3 one time occupation
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  HARTRAO   FO_SECN MO_EQUA RA_NO   ME_COMP  16.1  0    0    863.7   26.0  0.0000  0      1.00E-5  12.7000 1.20E-5   6.6945 1.20E-5   2.3000 1.20E-5   9.4000 1.20E-5
-#  Information as from A. Nothnagel 950523, axis offset reported by
-# Ludwig Combrinck: Conventional survey 1993,(6695.3 +- 3 mm) and GPS survey 1995 (6695.6 +- 2.3 mm) 
-# Latest information according to https://itrf.ign.fr/docs/local-ties/reports/ign60082867801_hartebeesthooekreprocessreport2020.pdf p. 9
-# Axis offset = 6.6945 +- 0.0007 m (1-sigma)
+# 1995-05-23 - Axis offset reported by Ludwig Combrinck: Conventional survey 1993,(6695.3 +- 3 mm) and GPS survey 1995 (6695.6 +- 2.3 mm) 
+# 2022-07-19 - Axis offset = 6.6945 +- 0.0007 m (1-sigma)
+# 2022-07-19 - Latest information according to https://itrf.ign.fr/docs/local-ties/reports/ign60082867801_hartebeesthooekreprocessreport2020.pdf p. 9
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  HART15M   FO_PRIM MO_AZEL RA_NO   ME_COMP  16.1  0    0    863.7   15.0  6.3200  0      0.80E-5   3.3600 1.20E-5   1.4901 1.20E-5   0.1550 3.50E-5   7.5000 1.20E-5
-#  Information as from Jonathan Quick 2012-07-25
-# Axis offset 1.4950
-# Axis offset estimated by Dan Macmillan 2014.01.07,  1.4941 +- 0.0026
-# Latest information according to https://itrf.ign.fr/docs/local-ties/reports/ign60082867801_hartebeesthooekreprocessreport2020.pdf p. 9
-# Axis offset = 1.4901 +- 0.0013 m (1-sigma)
+# 2012-07-25 - Information as from Jonathan Quick, Axis offset 1.4950
+# 2014-01-07 - Axis offset estimated by Dan Macmillan,  1.4941 +- 0.0026
+# 2022-07-19 - Axis offset = 1.4901 +- 0.0013 m (1-sigma)
+# 2022-07-19 - Latest information according to https://itrf.ign.fr/docs/local-ties/reports/ign60082867801_hartebeesthooekreprocessreport2020.pdf p. 9
 # The height of the vertex is actually 0.178 m backing structure at 1.2E-5 and 0.15 m fiberglass composite at 6.3E-5, resulting in a common
 # length of 0.155 m at 3.5E-5 expansion coefficient.
 # Illumnation taper 13 dB at 51 degrees, diameter 15 m, f/D = 0.5
