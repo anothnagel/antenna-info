@@ -1,5 +1,5 @@
 $ Antenna Information File  Format Version of 2008.04.22
-## Content Version of 2022-07-18
+## Content Version of 2022-07-19
 #
 # When using this file acknowledgement has to be given to
 #
@@ -370,13 +370,13 @@ ANTENNA_INFO  GRASSE    FO_SECN MO_AZEL RA_NO   ME_COMP   7.2  0    0    874.0  
 ANTENNA_INFO  HALEAKAL  FO_SECN MO_AZEL RA_NO   ME_INCM   4.9  0    0    698.8    5.0  0.0000  0      1.00E-5   4.1000 1.20E-5   0.0000 1.20E-5   0.0000 1.20E-5   0.0000 1.20E-5
 # mobile site with MV-3 one time occupation
 #----------------------------------------------------------------------------------------
-ANTENNA_INFO  HARTRAO   FO_SECN MO_EQUA RA_NO   ME_COMP  16.1  0    0    863.7   26.0  0.0000  0      1.00E-5  12.7000 1.20E-5   6.6953 1.20E-5   2.3000 1.20E-5   9.4000 1.20E-5
+ANTENNA_INFO  HARTRAO   FO_SECN MO_EQUA RA_NO   ME_COMP  16.1  0    0    863.7   26.0  0.0000  0      1.00E-5  12.7000 1.20E-5   6.6945 1.20E-5   2.3000 1.20E-5   9.4000 1.20E-5
 #  Information as from A. Nothnagel 950523, axis offset reported by
-# Ludwig Combrinck: Conventional survey 1993,(6695 +- 3 mm) and GPS survey 1995 (6695.6 +- 2.3 mm) 
+# Ludwig Combrinck: Conventional survey 1993,(6695.3 +- 3 mm) and GPS survey 1995 (6695.6 +- 2.3 mm) 
 # Latest information according to https://itrf.ign.fr/docs/local-ties/reports/ign60082867801_hartebeesthooekreprocessreport2020.pdf p. 9
 # Axis offset = 6.6945 +- 0.0007 m (1-sigma)
 #----------------------------------------------------------------------------------------
-ANTENNA_INFO  HART15M   FO_PRIM MO_AZEL RA_NO   ME_COMP  16.1  0    0    863.7   15.0  6.3200  0      0.80E-5   3.3600 1.20E-5   1.4950 1.20E-5   0.1550 3.50E-5   7.5000 1.20E-5
+ANTENNA_INFO  HART15M   FO_PRIM MO_AZEL RA_NO   ME_COMP  16.1  0    0    863.7   15.0  6.3200  0      0.80E-5   3.3600 1.20E-5   1.4901 1.20E-5   0.1550 3.50E-5   7.5000 1.20E-5
 #  Information as from Jonathan Quick 2012-07-25
 # Axis offset 1.4950
 # Axis offset estimated by Dan Macmillan 2014.01.07,  1.4941 +- 0.0026
