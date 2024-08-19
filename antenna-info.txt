@@ -7,6 +7,10 @@ $ Antenna Information File  Format Version of 2008.04.22
 # modelling of radio telescopes for geodetic and astrometric VLBI;
 # Journal of Geodesy, Vol. 83(3), 787-792, DOI: 10.1007/s00190-008-0284-z
 #
+# Reference temperatures are always computed with the GPT model, see
+# Boehm J, Heinkelmann R, Schuh H (2007) Short note: a global model
+# of pressure and temperature for geodetic applications. J Geod
+# 81:679–683. doi:10.1007/s00190-007-0135-3
 #
 # The antenna information file contains information about 
 # a) dimensions
@@ -16,10 +20,11 @@ $ Antenna Information File  Format Version of 2008.04.22
 #
 #
 # Version: 
+#             2024-07-31 MOPRA, KVNUS, KVNYS SESHAN13, TIANMA13, URUMQI13.
 #             2022-07-18 DSS26, DSS34, DSS36, DSS56 added; new HARTRAO and HART15M axis offsets according to 2021 report
 #             2020-04-23 Corrected typos for CHICHI10 and HAYSTACK, detected by Matthias Glomsda
 #             2020-04-14 WESTFORD revision reversed to old entries, YARRA12M, KATH12M, HOBART12, HOBART26 updated
-#             2020-04-03 Revised WESTFORD expansion coefficients for 0.6 factor to allow direct use of outside tempertures 
+#             2020-04-03 Revised WESTFORD expansion coefficients for 0.6 factor to allow direct use of outside temperatures 
 #                        in a general model
 #             2020-04-02 Assigned same axis offsets to DSS65 and DSS65a
 #             2020-03-19 ISHIOKA axis offset updated
