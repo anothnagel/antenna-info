@@ -646,8 +646,9 @@ ANTENNA_INFO  MON_PEAK  FO_SECN MO_AZEL RA_NO   ME_INCM   7.9  0    0    812.6  
 # 1988.05.04 - 1988.10.29 MV-3. Hp = 4.3 m
 # 1988.10.30 - 2000.01.01 MV-2, Hp = 2.8 m
 #----------------------------------------------------------------------------------------
-ANTENNA_INFO  MOPRA     FO_SECN MO_AZEL RA_NO   ME_ROUG  13.1  0    0    910.7   12.0  0.5000  0      1.00E-5   6.0000 1.20E-5  -0.0025 1.20E-5   5.0000 1.20E-5   0.0000 1.20E-5
-#  no measured dimensions available, dimensions reported here are estimated from drawing provpicture Axel Nothnagel 990806
+ANTENNA_INFO  MOPRA     FO_SECN MO_AZEL RA_NO   ME_ROUG  13.1  0    0    910.7   22.0  0.2000  0      1.00E-5  10.4000 1.20E-5   0.0000 1.20E-5   2.9600 1.20E-5   6.7000 1.20E-5
+#  no measured dimensions available, dimensions reported here are estimated from drawing provided by Tiege McCarthy 20240626 
+# plus information from MOPRA Green Book https://www.narrabri.atnf.csiro.au/observing/iree.pdf
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  MV2ONSLA  FO_SECN MO_AZEL RA_NO   ME_INCM   9.1  0    0   1012.6    3.9  0.0000  0      1.00E-5   2.8000 1.20E-5   0.0000 1.20E-5   0.0000 1.20E-5   0.0000 1.20E-5
 # mobile site with MV-2 one time occupation
