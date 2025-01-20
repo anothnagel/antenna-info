@@ -13,10 +13,9 @@ $ Antenna Information File  Format Version of 2008.04.22
 # 81:679–683. doi:10.1007/s00190-007-0135-3
 #
 # The antenna information file contains information about 
-# a) dimensionstarget="”_blank”" rel="noopener"
+# a) dimensions of antenna elements for thermal expansion modelling
 # b) reference pressure and temperature
-# c) dimensions of antenna elements for thermal expansion modelling (accurate
-# d) the axis offset 
+# c) the axis offset 
 #
 #
 # Version: 
@@ -128,7 +127,7 @@ $ Antenna Information File  Format Version of 2008.04.22
 #
 #----------------------------------------------------------------------------------------
 ANTENNA_INFO  AGGO      FO_PRIM MO_AZEL RA_NO   ME_COMP  17.0  0    0   1011.7    6.0  0.2700   4.73  1.00E-5   1.4600 1.20E-5   0.0000 1.20E-5   0.7500 1.20E-5   4.5000 1.20E-5
-# Information copied from TIGOCONC except ref. temp. and pres., height and depth of foundataion, see Email by Hayo Hase 2020-02-10
+# Information copied from TIGOCONC except ref. temp. and pres., height and depth of foundation, see Email by Hayo Hase 2020-02-10
 # axis offset reported by Hayo Hase BKG, 2004 on the basis of local measurements
 # 0.0000 +- 0.0003
 #----------------------------------------------------------------------------------------
