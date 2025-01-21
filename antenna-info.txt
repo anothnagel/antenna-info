@@ -1,5 +1,6 @@
 $ Antenna Information File  Format Version of 2008.04.22
-## Content Version of 2025-01-20
+## Content Version of 2025-01-21
+## DOI 10.48436/e9axk-3kr82
 #
 # When using this file acknowledgement has to be given to
 #
@@ -19,6 +20,7 @@ $ Antenna Information File  Format Version of 2008.04.22
 #
 #
 # Version: 
+#             2025-01-21 DOI 10.48436/e9axk-3kr82 assigned
 #             2025-01-20 HARTVGS, MOPRA, KVNPC, KVNTN, KVNUS, KVNYS, SESHAN13, TIANMA13, VLBA85_3, and WIDE85_3.
 #             2022-07-18 DSS26, DSS34, DSS36, DSS56 added; new HARTRAO and HART15M axis offsets according to 2021 report
 #             2020-04-23 Corrected typos for CHICHI10 and HAYSTACK, detected by Matthias Glomsda
